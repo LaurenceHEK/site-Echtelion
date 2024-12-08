@@ -1,0 +1,15 @@
+/*Règle qui active la valeur "Super Shiny" pour la propriété font-family, en indiuant le (ou les) fichier(s) à utiliser pour afficher cette police*/
+
+
+@font-face {
+    font-family: 'Super Shiny';
+    src: url('SuperShiny.eot');
+    src: url('SuperShiny.eot?#iefix') format('embedded-opentype'),
+        url('SuperShiny.woff2') format('woff2'),
+        url('SuperShiny.woff') format('woff'),
+        url('SuperShiny.ttf') format('truetype'),
+        url('SuperShiny.svg#SuperShiny') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
